@@ -1,0 +1,1046 @@
+2023/05/06 17:52:00 [emerg] 2130#2130: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2023/05/06 17:52:00 [emerg] 2130#2130: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2023/05/06 17:52:00 [emerg] 2130#2130: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2023/05/06 17:52:00 [emerg] 2130#2130: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2023/05/06 18:08:15 [emerg] 2079#2079: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2023/05/06 18:08:15 [emerg] 2079#2079: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2023/05/06 18:08:15 [emerg] 2079#2079: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2023/05/06 18:08:15 [emerg] 2079#2079: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2023/05/07 06:38:20 [emerg] 16205#16205: is duplicate in /home/hdc/work/conf/nginx.conf:14
+2023/05/07 06:38:58 [error] 16219#16219: *1 failed to load external Lua file "/home/hdc/work/../luacode/readdata.lua": cannot open /home/hdc/work/../luacode/readdata.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 06:39:55 [notice] 16235#16235: signal process started
+2023/05/07 06:39:56 [error] 16236#16236: *2 failed to load external Lua file "/home/hdc/work/../luacode/readdata.lua": cannot open /home/hdc/work/../luacode/readdata.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 06:41:24 [notice] 16266#16266: signal process started
+2023/05/07 06:42:21 [emerg] 16296#16296: unexpected "}" in /home/hdc/work/conf/nginx.conf:12
+2023/05/07 06:42:33 [notice] 16303#16303: signal process started
+2023/05/07 06:42:56 [notice] 16311#16311: signal process started
+2023/05/07 06:42:57 [error] 16312#16312: *5 failed to load external Lua file "/home/hdc/work/../..//luacode/readdata.lua": cannot open /home/hdc/work/../..//luacode/readdata.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 06:43:10 [error] 16312#16312: *6 failed to load external Lua file "/home/hdc/work/../..//luacode/readdata.lua": cannot open /home/hdc/work/../..//luacode/readdata.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 06:43:12 [notice] 16317#16317: signal process started
+2023/05/07 06:43:13 [error] 16318#16318: *7 failed to load external Lua file "/home/hdc/work/../../luacode/readdata.lua": cannot open /home/hdc/work/../../luacode/readdata.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 06:43:46 [notice] 16329#16329: signal process started
+2023/05/07 06:43:47 [error] 16330#16330: *8 failed to load external Lua file "/home/hdc/work/../luacode/readdata.lua": cannot open /home/hdc/work/../luacode/readdata.lua: No such file or directory, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 06:43:59 [notice] 16336#16336: signal process started
+2023/05/07 06:44:22 [notice] 16346#16346: signal process started
+2023/05/07 06:45:53 [notice] 16362#16362: signal process started
+2023/05/07 06:46:45 [notice] 16391#16391: signal process started
+2023/05/07 06:46:46 [error] 16392#16392: *12 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:5: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	/home/hdc/work/./luacode/readdata.lua:5: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 06:46:51 [notice] 16395#16395: signal process started
+2023/05/07 06:46:52 [error] 16396#16396: *13 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:5: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	/home/hdc/work/./luacode/readdata.lua:5: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 06:50:41 [notice] 16425#16425: signal process started
+2023/05/07 06:50:42 [error] 16426#16426: *14 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:20: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	/home/hdc/work/./luacode/readdata.lua:20: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 06:50:45 [notice] 16429#16429: signal process started
+2023/05/07 06:50:47 [error] 16430#16430: *15 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:20: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	/home/hdc/work/./luacode/readdata.lua:20: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 06:50:54 [error] 16430#16430: *16 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:20: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	/home/hdc/work/./luacode/readdata.lua:20: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 06:50:55 [notice] 16445#16445: signal process started
+2023/05/07 06:51:26 [notice] 16482#16482: signal process started
+2023/05/07 06:52:03 [notice] 16496#16496: signal process started
+2023/05/07 06:52:21 [notice] 16509#16509: signal process started
+2023/05/07 06:52:22 [error] 16510#16510: *19 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:5: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/home/hdc/work/./luacode/readdata.lua:5: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 06:54:24 [notice] 16574#16574: signal process started
+2023/05/07 06:54:25 [error] 16575#16575: *20 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:1: module 'utils' not found:
+	no field package.preload['utils']
+	no file '/usr/local/openresty/site/lualib/utils.ljbc'
+	no file '/usr/local/openresty/site/lualib/utils/init.ljbc'
+	no file '/usr/local/openresty/lualib/utils.ljbc'
+	no file '/usr/local/openresty/lualib/utils/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/utils.lua'
+	no file '/usr/local/openresty/site/lualib/utils/init.lua'
+	no file '/usr/local/openresty/lualib/utils.lua'
+	no file '/usr/local/openresty/lualib/utils/init.lua'
+	no file './utils.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/utils.lua'
+	no file '/usr/local/share/lua/5.1/utils.lua'
+	no file '/usr/local/share/lua/5.1/utils/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/utils.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/utils/init.lua'
+	no file '/usr/local/openresty/site/lualib/utils.so'
+	no file '/usr/local/openresty/lualib/utils.so'
+	no file './utils.so'
+	no file '/usr/local/lib/lua/5.1/utils.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/utils.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/hdc/work/./luacode/readdata.lua:1: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 06:55:59 [notice] 16594#16594: signal process started
+2023/05/07 06:56:00 [error] 16595#16595: *21 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:1: module 'utils' not found:
+	no field package.preload['utils']
+	no file '/usr/local/openresty/site/lualib/utils.ljbc'
+	no file '/usr/local/openresty/site/lualib/utils/init.ljbc'
+	no file '/usr/local/openresty/lualib/utils.ljbc'
+	no file '/usr/local/openresty/lualib/utils/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/utils.lua'
+	no file '/usr/local/openresty/site/lualib/utils/init.lua'
+	no file '/usr/local/openresty/lualib/utils.lua'
+	no file '/usr/local/openresty/lualib/utils/init.lua'
+	no file './utils.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/utils.lua'
+	no file '/usr/local/share/lua/5.1/utils.lua'
+	no file '/usr/local/share/lua/5.1/utils/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/utils.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/utils/init.lua'
+	no file '/usr/local/openresty/site/lualib/utils.so'
+	no file '/usr/local/openresty/lualib/utils.so'
+	no file './utils.so'
+	no file '/usr/local/lib/lua/5.1/utils.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/utils.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/hdc/work/./luacode/readdata.lua:1: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 06:57:28 [notice] 16622#16622: signal process started
+2023/05/07 06:57:29 [error] 16623#16623: *22 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:1: module 'utils' not found:
+	no field package.preload['utils']
+	no file '/usr/local/openresty/site/lualib/utils.ljbc'
+	no file '/usr/local/openresty/site/lualib/utils/init.ljbc'
+	no file '/usr/local/openresty/lualib/utils.ljbc'
+	no file '/usr/local/openresty/lualib/utils/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/utils.lua'
+	no file '/usr/local/openresty/site/lualib/utils/init.lua'
+	no file '/usr/local/openresty/lualib/utils.lua'
+	no file '/usr/local/openresty/lualib/utils/init.lua'
+	no file './utils.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/utils.lua'
+	no file '/usr/local/share/lua/5.1/utils.lua'
+	no file '/usr/local/share/lua/5.1/utils/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/utils.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/utils/init.lua'
+	no file '/usr/local/openresty/site/lualib/utils.so'
+	no file '/usr/local/openresty/lualib/utils.so'
+	no file './utils.so'
+	no file '/usr/local/lib/lua/5.1/utils.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/utils.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/hdc/work/./luacode/readdata.lua:1: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 06:57:43 [notice] 16639#16639: signal process started
+2023/05/07 06:57:44 [error] 16640#16640: *23 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:1: module 'utils' not found:
+	no field package.preload['utils']
+	no file '/usr/local/openresty/site/lualib/utils.ljbc'
+	no file '/usr/local/openresty/site/lualib/utils/init.ljbc'
+	no file '/usr/local/openresty/lualib/utils.ljbc'
+	no file '/usr/local/openresty/lualib/utils/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/utils.lua'
+	no file '/usr/local/openresty/site/lualib/utils/init.lua'
+	no file '/usr/local/openresty/lualib/utils.lua'
+	no file '/usr/local/openresty/lualib/utils/init.lua'
+	no file './utils.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/utils.lua'
+	no file '/usr/local/share/lua/5.1/utils.lua'
+	no file '/usr/local/share/lua/5.1/utils/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/utils.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/utils/init.lua'
+	no file '/usr/local/openresty/site/lualib/utils.so'
+	no file '/usr/local/openresty/lualib/utils.so'
+	no file './utils.so'
+	no file '/usr/local/lib/lua/5.1/utils.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/utils.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/hdc/work/./luacode/readdata.lua:1: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 06:58:10 [notice] 16655#16655: signal process started
+2023/05/07 06:58:11 [error] 16656#16656: *24 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:1: module 'utils' not found:
+	no field package.preload['utils']
+	no file '/usr/local/openresty/site/lualib/utils.ljbc'
+	no file '/usr/local/openresty/site/lualib/utils/init.ljbc'
+	no file '/usr/local/openresty/lualib/utils.ljbc'
+	no file '/usr/local/openresty/lualib/utils/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/utils.lua'
+	no file '/usr/local/openresty/site/lualib/utils/init.lua'
+	no file '/usr/local/openresty/lualib/utils.lua'
+	no file '/usr/local/openresty/lualib/utils/init.lua'
+	no file './utils.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/utils.lua'
+	no file '/usr/local/share/lua/5.1/utils.lua'
+	no file '/usr/local/share/lua/5.1/utils/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/utils.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/utils/init.lua'
+	no file '/usr/local/openresty/site/lualib/utils.so'
+	no file '/usr/local/openresty/lualib/utils.so'
+	no file './utils.so'
+	no file '/usr/local/lib/lua/5.1/utils.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/utils.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/hdc/work/./luacode/readdata.lua:1: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 07:00:17 [error] 16656#16656: *25 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:1: module 'utils' not found:
+	no field package.preload['utils']
+	no file '/usr/local/openresty/site/lualib/utils.ljbc'
+	no file '/usr/local/openresty/site/lualib/utils/init.ljbc'
+	no file '/usr/local/openresty/lualib/utils.ljbc'
+	no file '/usr/local/openresty/lualib/utils/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/utils.lua'
+	no file '/usr/local/openresty/site/lualib/utils/init.lua'
+	no file '/usr/local/openresty/lualib/utils.lua'
+	no file '/usr/local/openresty/lualib/utils/init.lua'
+	no file './utils.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/utils.lua'
+	no file '/usr/local/share/lua/5.1/utils.lua'
+	no file '/usr/local/share/lua/5.1/utils/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/utils.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/utils/init.lua'
+	no file '/usr/local/openresty/site/lualib/utils.so'
+	no file '/usr/local/openresty/lualib/utils.so'
+	no file './utils.so'
+	no file '/usr/local/lib/lua/5.1/utils.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/utils.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/hdc/work/./luacode/readdata.lua:1: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 07:00:18 [notice] 16681#16681: signal process started
+2023/05/07 07:00:19 [error] 16682#16682: *26 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:1: module 'utils' not found:
+	no field package.preload['utils']
+	no file '/usr/local/openresty/site/lualib/utils.ljbc'
+	no file '/usr/local/openresty/site/lualib/utils/init.ljbc'
+	no file '/usr/local/openresty/lualib/utils.ljbc'
+	no file '/usr/local/openresty/lualib/utils/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/utils.lua'
+	no file '/usr/local/openresty/site/lualib/utils/init.lua'
+	no file '/usr/local/openresty/lualib/utils.lua'
+	no file '/usr/local/openresty/lualib/utils/init.lua'
+	no file './utils.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/utils.lua'
+	no file '/usr/local/share/lua/5.1/utils.lua'
+	no file '/usr/local/share/lua/5.1/utils/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/utils.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/utils/init.lua'
+	no file '/usr/local/openresty/site/lualib/utils.so'
+	no file '/usr/local/openresty/lualib/utils.so'
+	no file './utils.so'
+	no file '/usr/local/lib/lua/5.1/utils.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/utils.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/hdc/work/./luacode/readdata.lua:1: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 07:00:24 [notice] 16685#16685: signal process started
+2023/05/07 07:00:25 [error] 16686#16686: *27 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:1: module 'utils' not found:
+	no field package.preload['utils']
+	no file '/usr/local/openresty/site/lualib/utils.ljbc'
+	no file '/usr/local/openresty/site/lualib/utils/init.ljbc'
+	no file '/usr/local/openresty/lualib/utils.ljbc'
+	no file '/usr/local/openresty/lualib/utils/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/utils.lua'
+	no file '/usr/local/openresty/site/lualib/utils/init.lua'
+	no file '/usr/local/openresty/lualib/utils.lua'
+	no file '/usr/local/openresty/lualib/utils/init.lua'
+	no file './utils.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/utils.lua'
+	no file '/usr/local/share/lua/5.1/utils.lua'
+	no file '/usr/local/share/lua/5.1/utils/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/utils.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/utils/init.lua'
+	no file '/usr/local/openresty/site/lualib/utils.so'
+	no file '/usr/local/openresty/lualib/utils.so'
+	no file './utils.so'
+	no file '/usr/local/lib/lua/5.1/utils.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/utils.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/hdc/work/./luacode/readdata.lua:1: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 07:00:49 [notice] 16700#16700: signal process started
+2023/05/07 07:00:50 [error] 16701#16701: *28 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:1: module 'utils' not found:
+	no field package.preload['utils']
+	no file '/usr/local/openresty/site/lualib/utils.ljbc'
+	no file '/usr/local/openresty/site/lualib/utils/init.ljbc'
+	no file '/usr/local/openresty/lualib/utils.ljbc'
+	no file '/usr/local/openresty/lualib/utils/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/utils.lua'
+	no file '/usr/local/openresty/site/lualib/utils/init.lua'
+	no file '/usr/local/openresty/lualib/utils.lua'
+	no file '/usr/local/openresty/lualib/utils/init.lua'
+	no file './utils.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/utils.lua'
+	no file '/usr/local/share/lua/5.1/utils.lua'
+	no file '/usr/local/share/lua/5.1/utils/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/utils.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/utils/init.lua'
+	no file '/usr/local/openresty/site/lualib/utils.so'
+	no file '/usr/local/openresty/lualib/utils.so'
+	no file './utils.so'
+	no file '/usr/local/lib/lua/5.1/utils.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/utils.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/hdc/work/./luacode/readdata.lua:1: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 07:01:08 [notice] 16705#16705: signal process started
+2023/05/07 07:01:12 [error] 16701#16701: *29 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:1: module 'utils' not found:
+	no field package.preload['utils']
+	no file '/usr/local/openresty/site/lualib/utils.ljbc'
+	no file '/usr/local/openresty/site/lualib/utils/init.ljbc'
+	no file '/usr/local/openresty/lualib/utils.ljbc'
+	no file '/usr/local/openresty/lualib/utils/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/utils.lua'
+	no file '/usr/local/openresty/site/lualib/utils/init.lua'
+	no file '/usr/local/openresty/lualib/utils.lua'
+	no file '/usr/local/openresty/lualib/utils/init.lua'
+	no file './utils.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/utils.lua'
+	no file '/usr/local/share/lua/5.1/utils.lua'
+	no file '/usr/local/share/lua/5.1/utils/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/utils.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/utils/init.lua'
+	no file '/usr/local/openresty/site/lualib/utils.so'
+	no file '/usr/local/openresty/lualib/utils.so'
+	no file './utils.so'
+	no file '/usr/local/lib/lua/5.1/utils.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/utils.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/hdc/work/./luacode/readdata.lua:1: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 07:01:25 [notice] 16720#16720: signal process started
+2023/05/07 07:01:26 [error] 16721#16721: *30 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:1: module 'utils' not found:
+	no field package.preload['utils']
+	no file '/usr/local/openresty/site/lualib/utils.ljbc'
+	no file '/usr/local/openresty/site/lualib/utils/init.ljbc'
+	no file '/usr/local/openresty/lualib/utils.ljbc'
+	no file '/usr/local/openresty/lualib/utils/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/utils.lua'
+	no file '/usr/local/openresty/site/lualib/utils/init.lua'
+	no file '/usr/local/openresty/lualib/utils.lua'
+	no file '/usr/local/openresty/lualib/utils/init.lua'
+	no file './utils.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/utils.lua'
+	no file '/usr/local/share/lua/5.1/utils.lua'
+	no file '/usr/local/share/lua/5.1/utils/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/utils.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/utils/init.lua'
+	no file '/usr/local/openresty/site/lualib/utils.so'
+	no file '/usr/local/openresty/lualib/utils.so'
+	no file './utils.so'
+	no file '/usr/local/lib/lua/5.1/utils.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/utils.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/hdc/work/./luacode/readdata.lua:1: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 07:01:34 [notice] 16733#16733: signal process started
+2023/05/07 07:01:35 [error] 16734#16734: *31 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:1: module 'utils' not found:
+	no field package.preload['utils']
+	no file '/usr/local/openresty/site/lualib/utils.ljbc'
+	no file '/usr/local/openresty/site/lualib/utils/init.ljbc'
+	no file '/usr/local/openresty/lualib/utils.ljbc'
+	no file '/usr/local/openresty/lualib/utils/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/utils.lua'
+	no file '/usr/local/openresty/site/lualib/utils/init.lua'
+	no file '/usr/local/openresty/lualib/utils.lua'
+	no file '/usr/local/openresty/lualib/utils/init.lua'
+	no file './utils.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/utils.lua'
+	no file '/usr/local/share/lua/5.1/utils.lua'
+	no file '/usr/local/share/lua/5.1/utils/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/utils.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/utils/init.lua'
+	no file '/usr/local/openresty/site/lualib/utils.so'
+	no file '/usr/local/openresty/lualib/utils.so'
+	no file './utils.so'
+	no file '/usr/local/lib/lua/5.1/utils.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/utils.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/hdc/work/./luacode/readdata.lua:1: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 07:01:52 [notice] 16738#16738: signal process started
+2023/05/07 07:02:12 [emerg] 16741#16741: open() "/conf/nginx.conf" failed (2: No such file or directory)
+2023/05/07 07:02:26 [error] 16745#16745: *1 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:1: module 'utils' not found:
+	no field package.preload['utils']
+	no file '/usr/local/openresty/site/lualib/utils.ljbc'
+	no file '/usr/local/openresty/site/lualib/utils/init.ljbc'
+	no file '/usr/local/openresty/lualib/utils.ljbc'
+	no file '/usr/local/openresty/lualib/utils/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/utils.lua'
+	no file '/usr/local/openresty/site/lualib/utils/init.lua'
+	no file '/usr/local/openresty/lualib/utils.lua'
+	no file '/usr/local/openresty/lualib/utils/init.lua'
+	no file './utils.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/utils.lua'
+	no file '/usr/local/share/lua/5.1/utils.lua'
+	no file '/usr/local/share/lua/5.1/utils/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/utils.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/utils/init.lua'
+	no file '/usr/local/openresty/site/lualib/utils.so'
+	no file '/usr/local/openresty/lualib/utils.so'
+	no file './utils.so'
+	no file '/usr/local/lib/lua/5.1/utils.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/utils.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/hdc/work/./luacode/readdata.lua:1: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 07:03:00 [notice] 16765#16765: signal process started
+2023/05/07 07:03:16 [notice] 16775#16775: signal process started
+2023/05/07 07:03:17 [error] 16776#16776: *3 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:1: module 'utils' not found:
+	no field package.preload['utils']
+	no file '/usr/local/openresty/site/lualib/utils.ljbc'
+	no file '/usr/local/openresty/site/lualib/utils/init.ljbc'
+	no file '/usr/local/openresty/lualib/utils.ljbc'
+	no file '/usr/local/openresty/lualib/utils/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/utils.lua'
+	no file '/usr/local/openresty/site/lualib/utils/init.lua'
+	no file '/usr/local/openresty/lualib/utils.lua'
+	no file '/usr/local/openresty/lualib/utils/init.lua'
+	no file './utils.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/utils.lua'
+	no file '/usr/local/share/lua/5.1/utils.lua'
+	no file '/usr/local/share/lua/5.1/utils/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/utils.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/utils/init.lua'
+	no file '/usr/local/openresty/site/lualib/utils.so'
+	no file '/usr/local/openresty/lualib/utils.so'
+	no file './utils.so'
+	no file '/usr/local/lib/lua/5.1/utils.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/utils.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/hdc/work/./luacode/readdata.lua:1: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 07:03:27 [notice] 16790#16790: signal process started
+2023/05/07 07:04:14 [notice] 16800#16800: signal process started
+2023/05/07 07:05:03 [notice] 16812#16812: signal process started
+2023/05/07 07:05:04 [error] 16813#16813: *6 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:12: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	/home/hdc/work/./luacode/readdata.lua:12: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 07:05:19 [notice] 16829#16829: signal process started
+2023/05/07 07:05:38 [notice] 16845#16845: signal process started
+2023/05/07 07:06:37 [notice] 16890#16890: signal process started
+2023/05/07 07:07:27 [notice] 16906#16906: signal process started
+2023/05/07 07:07:44 [notice] 16925#16925: signal process started
+2023/05/07 07:08:09 [notice] 16934#16934: signal process started
+2023/05/07 07:08:55 [notice] 16959#16959: signal process started
+2023/05/07 07:09:21 [notice] 16969#16969: signal process started
+2023/05/07 07:09:34 [notice] 16982#16982: signal process started
+2023/05/07 07:10:21 [notice] 16998#16998: signal process started
+2023/05/07 07:15:37 [notice] 17048#17048: signal process started
+2023/05/07 07:48:04 [notice] 17250#17250: signal process started
+2023/05/07 07:48:05 [error] 17251#17251: *22 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:2: module 'socket' not found:
+	no field package.preload['socket']
+	no file '/usr/local/openresty/site/lualib/socket.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/lualib/socket.ljbc'
+	no file '/usr/local/openresty/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket.lua'
+	no file '/usr/local/openresty/site/lualib/socket/init.lua'
+	no file '/usr/local/openresty/lualib/socket.lua'
+	no file '/usr/local/openresty/lualib/socket/init.lua'
+	no file './socket.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/site/lualib/socket.so'
+	no file '/usr/local/openresty/lualib/socket.so'
+	no file './socket.so'
+	no file '/usr/local/lib/lua/5.1/socket.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/socket.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/hdc/work/./luacode/readdata.lua:2: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 07:48:08 [notice] 17254#17254: signal process started
+2023/05/07 07:48:09 [error] 17255#17255: *23 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:2: module 'socket' not found:
+	no field package.preload['socket']
+	no file '/usr/local/openresty/site/lualib/socket.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/lualib/socket.ljbc'
+	no file '/usr/local/openresty/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket.lua'
+	no file '/usr/local/openresty/site/lualib/socket/init.lua'
+	no file '/usr/local/openresty/lualib/socket.lua'
+	no file '/usr/local/openresty/lualib/socket/init.lua'
+	no file './socket.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/site/lualib/socket.so'
+	no file '/usr/local/openresty/lualib/socket.so'
+	no file './socket.so'
+	no file '/usr/local/lib/lua/5.1/socket.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/socket.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/hdc/work/./luacode/readdata.lua:2: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 07:48:15 [notice] 17270#17270: signal process started
+2023/05/07 07:48:15 [error] 17271#17271: *24 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:2: module 'socket' not found:
+	no field package.preload['socket']
+	no file '/usr/local/openresty/site/lualib/socket.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/lualib/socket.ljbc'
+	no file '/usr/local/openresty/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket.lua'
+	no file '/usr/local/openresty/site/lualib/socket/init.lua'
+	no file '/usr/local/openresty/lualib/socket.lua'
+	no file '/usr/local/openresty/lualib/socket/init.lua'
+	no file './socket.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/site/lualib/socket.so'
+	no file '/usr/local/openresty/lualib/socket.so'
+	no file './socket.so'
+	no file '/usr/local/lib/lua/5.1/socket.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/socket.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/hdc/work/./luacode/readdata.lua:2: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 07:48:24 [notice] 17287#17287: signal process started
+2023/05/07 07:48:25 [error] 17288#17288: *25 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:2: module 'socket' not found:
+	no field package.preload['socket']
+	no file '/usr/local/openresty/site/lualib/socket.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/lualib/socket.ljbc'
+	no file '/usr/local/openresty/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket.lua'
+	no file '/usr/local/openresty/site/lualib/socket/init.lua'
+	no file '/usr/local/openresty/lualib/socket.lua'
+	no file '/usr/local/openresty/lualib/socket/init.lua'
+	no file './socket.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/site/lualib/socket.so'
+	no file '/usr/local/openresty/lualib/socket.so'
+	no file './socket.so'
+	no file '/usr/local/lib/lua/5.1/socket.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/socket.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/hdc/work/./luacode/readdata.lua:2: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 07:48:36 [notice] 17303#17303: signal process started
+2023/05/07 07:48:36 [error] 17304#17304: *26 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:2: module 'socket' not found:
+	no field package.preload['socket']
+	no file '/usr/local/openresty/site/lualib/socket.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/lualib/socket.ljbc'
+	no file '/usr/local/openresty/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket.lua'
+	no file '/usr/local/openresty/site/lualib/socket/init.lua'
+	no file '/usr/local/openresty/lualib/socket.lua'
+	no file '/usr/local/openresty/lualib/socket/init.lua'
+	no file './socket.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/site/lualib/socket.so'
+	no file '/usr/local/openresty/lualib/socket.so'
+	no file './socket.so'
+	no file '/usr/local/lib/lua/5.1/socket.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/socket.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/hdc/work/./luacode/readdata.lua:2: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 07:48:37 [notice] 17307#17307: signal process started
+2023/05/07 07:48:38 [error] 17308#17308: *27 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:2: module 'socket' not found:
+	no field package.preload['socket']
+	no file '/usr/local/openresty/site/lualib/socket.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/lualib/socket.ljbc'
+	no file '/usr/local/openresty/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket.lua'
+	no file '/usr/local/openresty/site/lualib/socket/init.lua'
+	no file '/usr/local/openresty/lualib/socket.lua'
+	no file '/usr/local/openresty/lualib/socket/init.lua'
+	no file './socket.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/site/lualib/socket.so'
+	no file '/usr/local/openresty/lualib/socket.so'
+	no file './socket.so'
+	no file '/usr/local/lib/lua/5.1/socket.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/socket.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/hdc/work/./luacode/readdata.lua:2: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 07:48:46 [notice] 17320#17320: signal process started
+2023/05/07 07:49:04 [error] 17324#17324: *1 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:2: module 'socket' not found:
+	no field package.preload['socket']
+	no file '/usr/local/openresty/site/lualib/socket.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/lualib/socket.ljbc'
+	no file '/usr/local/openresty/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket.lua'
+	no file '/usr/local/openresty/site/lualib/socket/init.lua'
+	no file '/usr/local/openresty/lualib/socket.lua'
+	no file '/usr/local/openresty/lualib/socket/init.lua'
+	no file './socket.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/site/lualib/socket.so'
+	no file '/usr/local/openresty/lualib/socket.so'
+	no file './socket.so'
+	no file '/usr/local/lib/lua/5.1/socket.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/socket.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/hdc/work/./luacode/readdata.lua:2: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 07:49:14 [error] 17324#17324: *2 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:2: module 'socket' not found:
+	no field package.preload['socket']
+	no file '/usr/local/openresty/site/lualib/socket.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/lualib/socket.ljbc'
+	no file '/usr/local/openresty/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket.lua'
+	no file '/usr/local/openresty/site/lualib/socket/init.lua'
+	no file '/usr/local/openresty/lualib/socket.lua'
+	no file '/usr/local/openresty/lualib/socket/init.lua'
+	no file './socket.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/site/lualib/socket.so'
+	no file '/usr/local/openresty/lualib/socket.so'
+	no file './socket.so'
+	no file '/usr/local/lib/lua/5.1/socket.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/socket.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/hdc/work/./luacode/readdata.lua:2: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 07:49:16 [error] 17324#17324: *3 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:2: module 'socket' not found:
+	no field package.preload['socket']
+	no file '/usr/local/openresty/site/lualib/socket.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/lualib/socket.ljbc'
+	no file '/usr/local/openresty/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket.lua'
+	no file '/usr/local/openresty/site/lualib/socket/init.lua'
+	no file '/usr/local/openresty/lualib/socket.lua'
+	no file '/usr/local/openresty/lualib/socket/init.lua'
+	no file './socket.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/site/lualib/socket.so'
+	no file '/usr/local/openresty/lualib/socket.so'
+	no file './socket.so'
+	no file '/usr/local/lib/lua/5.1/socket.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/socket.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/hdc/work/./luacode/readdata.lua:2: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 07:49:28 [notice] 17344#17344: signal process started
+2023/05/07 07:49:37 [notice] 17358#17358: signal process started
+2023/05/07 07:49:38 [error] 17359#17359: *5 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:2: module 'socket' not found:
+	no field package.preload['socket']
+	no file '/usr/local/openresty/site/lualib/socket.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/lualib/socket.ljbc'
+	no file '/usr/local/openresty/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket.lua'
+	no file '/usr/local/openresty/site/lualib/socket/init.lua'
+	no file '/usr/local/openresty/lualib/socket.lua'
+	no file '/usr/local/openresty/lualib/socket/init.lua'
+	no file './socket.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/site/lualib/socket.so'
+	no file '/usr/local/openresty/lualib/socket.so'
+	no file './socket.so'
+	no file '/usr/local/lib/lua/5.1/socket.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/socket.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/hdc/work/./luacode/readdata.lua:2: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 07:50:31 [error] 17359#17359: *7 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:2: module 'socket' not found:
+	no field package.preload['socket']
+	no file '/usr/local/openresty/site/lualib/socket.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/lualib/socket.ljbc'
+	no file '/usr/local/openresty/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket.lua'
+	no file '/usr/local/openresty/site/lualib/socket/init.lua'
+	no file '/usr/local/openresty/lualib/socket.lua'
+	no file '/usr/local/openresty/lualib/socket/init.lua'
+	no file './socket.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/site/lualib/socket.so'
+	no file '/usr/local/openresty/lualib/socket.so'
+	no file './socket.so'
+	no file '/usr/local/lib/lua/5.1/socket.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/socket.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/hdc/work/./luacode/readdata.lua:2: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 07:50:52 [error] 17359#17359: *9 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:2: module 'socket' not found:
+	no field package.preload['socket']
+	no file '/usr/local/openresty/site/lualib/socket.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/lualib/socket.ljbc'
+	no file '/usr/local/openresty/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket.lua'
+	no file '/usr/local/openresty/site/lualib/socket/init.lua'
+	no file '/usr/local/openresty/lualib/socket.lua'
+	no file '/usr/local/openresty/lualib/socket/init.lua'
+	no file './socket.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/site/lualib/socket.so'
+	no file '/usr/local/openresty/lualib/socket.so'
+	no file './socket.so'
+	no file '/usr/local/lib/lua/5.1/socket.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/socket.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/hdc/work/./luacode/readdata.lua:2: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 07:51:07 [error] 17359#17359: *10 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:2: module 'socket' not found:
+	no field package.preload['socket']
+	no file '/usr/local/openresty/site/lualib/socket.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/lualib/socket.ljbc'
+	no file '/usr/local/openresty/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket.lua'
+	no file '/usr/local/openresty/site/lualib/socket/init.lua'
+	no file '/usr/local/openresty/lualib/socket.lua'
+	no file '/usr/local/openresty/lualib/socket/init.lua'
+	no file './socket.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/site/lualib/socket.so'
+	no file '/usr/local/openresty/lualib/socket.so'
+	no file './socket.so'
+	no file '/usr/local/lib/lua/5.1/socket.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/socket.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/hdc/work/./luacode/readdata.lua:2: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 07:51:10 [error] 17359#17359: *12 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:2: module 'socket' not found:
+	no field package.preload['socket']
+	no file '/usr/local/openresty/site/lualib/socket.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/lualib/socket.ljbc'
+	no file '/usr/local/openresty/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket.lua'
+	no file '/usr/local/openresty/site/lualib/socket/init.lua'
+	no file '/usr/local/openresty/lualib/socket.lua'
+	no file '/usr/local/openresty/lualib/socket/init.lua'
+	no file './socket.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/site/lualib/socket.so'
+	no file '/usr/local/openresty/lualib/socket.so'
+	no file './socket.so'
+	no file '/usr/local/lib/lua/5.1/socket.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/socket.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/hdc/work/./luacode/readdata.lua:2: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 07:54:16 [notice] 17597#17597: signal process started
+2023/05/07 07:54:17 [error] 17598#17598: *13 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:2: module 'socket' not found:
+	no field package.preload['socket']
+	no file '/usr/local/openresty/site/lualib/socket.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/lualib/socket.ljbc'
+	no file '/usr/local/openresty/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket.lua'
+	no file '/usr/local/openresty/site/lualib/socket/init.lua'
+	no file '/usr/local/openresty/lualib/socket.lua'
+	no file '/usr/local/openresty/lualib/socket/init.lua'
+	no file './socket.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/site/lualib/socket.so'
+	no file '/usr/local/openresty/lualib/socket.so'
+	no file './socket.so'
+	no file '/usr/local/lib/lua/5.1/socket.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/socket.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/hdc/work/./luacode/readdata.lua:2: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 07:54:29 [error] 17598#17598: *14 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:2: module 'socket' not found:
+	no field package.preload['socket']
+	no file '/usr/local/openresty/site/lualib/socket.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/lualib/socket.ljbc'
+	no file '/usr/local/openresty/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket.lua'
+	no file '/usr/local/openresty/site/lualib/socket/init.lua'
+	no file '/usr/local/openresty/lualib/socket.lua'
+	no file '/usr/local/openresty/lualib/socket/init.lua'
+	no file './socket.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/site/lualib/socket.so'
+	no file '/usr/local/openresty/lualib/socket.so'
+	no file './socket.so'
+	no file '/usr/local/lib/lua/5.1/socket.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/socket.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/home/hdc/work/./luacode/readdata.lua:2: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 07:54:31 [notice] 17616#17616: signal process started
+2023/05/07 07:54:51 [notice] 17638#17638: signal process started
+2023/05/07 07:56:23 [alert] 17668#17668: lua_code_cache is off; this will hurt performance in /home/hdc/work/conf/nginx.conf:11
+2023/05/07 07:56:23 [notice] 17668#17668: signal process started
+2023/05/07 07:56:23 [alert] 17323#17323: lua_code_cache is off; this will hurt performance in /home/hdc/work/conf/nginx.conf:11
+2023/05/07 08:04:07 [error] 17669#17669: *20 connect() failed (111: Connection refused), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 08:06:06 [error] 17669#17669: *22 lua tcp socket connect timed out, when connecting to 192.168.32.1:8888, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 08:07:16 [error] 17669#17669: *24 lua tcp socket connect timed out, when connecting to 192.168.32.1:8888, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 08:08:16 [error] 17669#17669: *26 connect() failed (111: Connection refused), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 08:08:37 [error] 17669#17669: *28 connect() failed (111: Connection refused), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 08:09:46 [error] 17669#17669: *30 lua tcp socket connect timed out, when connecting to 192.168.32.1:8888, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 08:16:57 [error] 17669#17669: *36 attempt to send data on a closed socket: u:00007FD5149FA9B8, c:0000000000000000, ft:0 eof:0, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 08:17:16 [error] 17669#17669: *38 attempt to send data on a closed socket: u:00007FD5149FAEA8, c:0000000000000000, ft:0 eof:0, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 08:17:17 [error] 17669#17669: *40 attempt to send data on a closed socket: u:00007FD5149FBEA0, c:0000000000000000, ft:0 eof:0, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 08:17:37 [error] 17669#17669: *42 attempt to send data on a closed socket: u:00007FD5149FAD20, c:0000000000000000, ft:0 eof:0, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 08:18:23 [error] 17669#17669: *44 attempt to send data on a closed socket: u:00007FD5149F0D68, c:0000000000000000, ft:0 eof:0, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 20:27:55 [error] 17669#17669: *55 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:21: bad argument #1 to 'send' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	/home/hdc/work/./luacode/readdata.lua:21: in main chunk, client: 192.168.32.1, server: , request: "GET / HTTP/1.1", host: "192.168.32.142:8080"
+2023/05/07 20:27:55 [error] 17669#17669: *54 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:21: bad argument #1 to 'send' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	/home/hdc/work/./luacode/readdata.lua:21: in main chunk, client: 192.168.32.1, server: , request: "GET / HTTP/1.1", host: "192.168.32.142:8080"
+2023/05/07 20:27:55 [error] 17669#17669: *60 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:21: bad argument #1 to 'send' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	/home/hdc/work/./luacode/readdata.lua:21: in main chunk, client: 192.168.32.1, server: , request: "GET / HTTP/1.1", host: "192.168.32.142:8080"
+2023/05/07 20:27:57 [error] 17669#17669: *62 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:21: bad argument #1 to 'send' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	/home/hdc/work/./luacode/readdata.lua:21: in main chunk, client: 192.168.32.1, server: , request: "GET / HTTP/1.1", host: "192.168.32.142:8080"
+2023/05/07 20:27:58 [error] 17669#17669: *63 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:21: bad argument #1 to 'send' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	/home/hdc/work/./luacode/readdata.lua:21: in main chunk, client: 192.168.32.1, server: , request: "GET / HTTP/1.1", host: "192.168.32.142:8080"
+2023/05/07 20:27:58 [error] 17669#17669: *66 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:21: bad argument #1 to 'send' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	/home/hdc/work/./luacode/readdata.lua:21: in main chunk, client: 192.168.32.1, server: , request: "GET / HTTP/1.1", host: "192.168.32.142:8080"
+2023/05/07 20:27:58 [error] 17669#17669: *68 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:21: bad argument #1 to 'send' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	/home/hdc/work/./luacode/readdata.lua:21: in main chunk, client: 192.168.32.1, server: , request: "GET / HTTP/1.1", host: "192.168.32.142:8080"
+2023/05/07 20:28:03 [error] 17669#17669: *71 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:21: bad argument #1 to 'send' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	/home/hdc/work/./luacode/readdata.lua:21: in main chunk, client: 192.168.32.1, server: , request: "GET / HTTP/1.1", host: "192.168.32.142:8080"
+2023/05/07 20:28:03 [error] 17669#17669: *70 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:21: bad argument #1 to 'send' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	/home/hdc/work/./luacode/readdata.lua:21: in main chunk, client: 192.168.32.1, server: , request: "GET / HTTP/1.1", host: "192.168.32.142:8080"
+2023/05/07 20:28:03 [error] 17669#17669: *74 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:21: bad argument #1 to 'send' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	/home/hdc/work/./luacode/readdata.lua:21: in main chunk, client: 192.168.32.1, server: , request: "GET / HTTP/1.1", host: "192.168.32.142:8080"
+2023/05/07 20:28:04 [error] 17669#17669: *76 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:21: bad argument #1 to 'send' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	/home/hdc/work/./luacode/readdata.lua:21: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 20:28:25 [error] 17669#17669: *79 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:21: attempt to call field 'tostring' (a nil value)
+stack traceback:
+coroutine 0:
+	/home/hdc/work/./luacode/readdata.lua: in main chunk, client: 192.168.32.1, server: , request: "GET / HTTP/1.1", host: "192.168.32.142:8080"
+2023/05/07 20:28:28 [error] 17669#17669: *78 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:21: attempt to call field 'tostring' (a nil value)
+stack traceback:
+coroutine 0:
+	/home/hdc/work/./luacode/readdata.lua: in main chunk, client: 192.168.32.1, server: , request: "GET / HTTP/1.1", host: "192.168.32.142:8080"
+2023/05/07 20:28:28 [error] 17669#17669: *82 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:21: attempt to call field 'tostring' (a nil value)
+stack traceback:
+coroutine 0:
+	/home/hdc/work/./luacode/readdata.lua: in main chunk, client: 192.168.32.1, server: , request: "GET / HTTP/1.1", host: "192.168.32.142:8080"
+2023/05/07 20:28:28 [error] 17669#17669: *84 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:21: attempt to call field 'tostring' (a nil value)
+stack traceback:
+coroutine 0:
+	/home/hdc/work/./luacode/readdata.lua: in main chunk, client: 192.168.32.1, server: , request: "GET / HTTP/1.1", host: "192.168.32.142:8080"
+2023/05/07 20:28:33 [error] 17669#17669: *86 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:21: attempt to call field 'tostring' (a nil value)
+stack traceback:
+coroutine 0:
+	/home/hdc/work/./luacode/readdata.lua: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 20:35:56 [error] 17669#17669: *96 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:37: bad argument #1 to 'send' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	/home/hdc/work/./luacode/readdata.lua:37: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 20:36:54 [error] 17669#17669: *100 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:37: attempt to call field 'tostring' (a nil value)
+stack traceback:
+coroutine 0:
+	/home/hdc/work/./luacode/readdata.lua: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 20:37:27 [error] 17669#17669: *102 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:36: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	/home/hdc/work/./luacode/readdata.lua:36: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 20:38:01 [error] 17669#17669: *106 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:36: attempt to call field 'tostring' (a nil value)
+stack traceback:
+coroutine 0:
+	/home/hdc/work/./luacode/readdata.lua: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 20:56:48 [error] 17669#17669: *126 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:24: attempt to call a nil value
+stack traceback:
+coroutine 0:
+	/home/hdc/work/./luacode/readdata.lua: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 21:10:01 [error] 17669#17669: *134 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:14: attempt to call field 'remote_addr' (a string value)
+stack traceback:
+coroutine 0:
+	/home/hdc/work/./luacode/readdata.lua: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 21:10:11 [error] 17669#17669: *136 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:14: attempt to call field 'remote_addr' (a string value)
+stack traceback:
+coroutine 0:
+	/home/hdc/work/./luacode/readdata.lua: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 21:10:29 [error] 17669#17669: *140 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:14: attempt to call field 'remote_addr' (a string value)
+stack traceback:
+coroutine 0:
+	/home/hdc/work/./luacode/readdata.lua: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 21:12:59 [error] 17669#17669: *142 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:14: attempt to call field 'remote_addr' (a string value)
+stack traceback:
+coroutine 0:
+	/home/hdc/work/./luacode/readdata.lua: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 21:13:46 [error] 17669#17669: *144 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:14: attempt to call field 'remote_addr' (a string value)
+stack traceback:
+coroutine 0:
+	/home/hdc/work/./luacode/readdata.lua: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 21:15:44 [error] 17669#17669: *146 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:14: attempt to call field 'remote_addr' (a string value)
+stack traceback:
+coroutine 0:
+	/home/hdc/work/./luacode/readdata.lua: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 21:20:09 [error] 17669#17669: *152 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:15: attempt to call field 'nginx_version' (a string value)
+stack traceback:
+coroutine 0:
+	/home/hdc/work/./luacode/readdata.lua: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 21:20:47 [error] 17669#17669: *154 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:15: attempt to call field 'args' (a nil value)
+stack traceback:
+coroutine 0:
+	/home/hdc/work/./luacode/readdata.lua: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 21:21:27 [error] 17669#17669: *156 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:15: attempt to call field 'request_method' (a string value)
+stack traceback:
+coroutine 0:
+	/home/hdc/work/./luacode/readdata.lua: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 21:21:29 [error] 17669#17669: *158 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:15: attempt to call field 'request_method' (a string value)
+stack traceback:
+coroutine 0:
+	/home/hdc/work/./luacode/readdata.lua: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 21:21:29 [error] 17669#17669: *160 lua entry thread aborted: runtime error: /home/hdc/work/./luacode/readdata.lua:15: attempt to call field 'request_method' (a string value)
+stack traceback:
+coroutine 0:
+	/home/hdc/work/./luacode/readdata.lua: in main chunk, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 21:55:48 [error] 17669#17669: *190 connect() failed (113: No route to host), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/05/07 22:08:26 [error] 17669#17669: *218 connect() to 192.168.32.1:8888 failed (101: Network is unreachable), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
